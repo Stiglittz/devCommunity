@@ -1,0 +1,12 @@
+// Declaración de variable
+$color-fondo: #f5f5f5; // Por ejemplo, aquí estamos creando una variable llamada $color-fondo y le asignamos el valor para el background del body
+$color-primario: #ffffff; // Color de fondo que contiene los div o contenedores principales de la pagina
+$color-titulos: #171717; // h1,h2,h3.
+$color-secundario: #3b49df; // border y letra de botones partir de aqui para el hover o enlances
+$color-grisligero: #525252; // Texto en articulos
+$color-grisfuerte: #404040; // Los pequeños titulos de articulos
+
+// Uso de variable en el modulo correspondiente colocaremos el selector o clase
+/* .elemento {
+  color: $color-primario; // Aquí estamos utilizando la variable $color-primario para establecer el color de texto
+} */
