@@ -1,0 +1,10 @@
+.cajaIzq{
+    margin: 1px;
+    display: flex;
+    background-color: aqua;
+}
+
+.cajaIzq>ul>li:hover{
+   background-color: black;
+   color: white;
+}
