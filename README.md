@@ -23,6 +23,7 @@ https://dev.to/ *Replicar este sitio y sus estilos.
 <!-- Cesar Gudiño -->
     - Desde la rama develop debe crear su rama feat/articlesAside y comenzar trabajar en esa.
     - Aside derecho  #discuss sobre articulos y comentarios (components articleAside.scss) se usara un pequeño titulo con el que contenga el simbolo# despues los elementos parrafo <p> y por ultimo span para los comentarios, crear  la linea divisoria de color tenue entre cada articulo y su contenedor.(HTML dentro de aside derecho)
+    - Terminal 1. "git add ." (Cuando termine mi codigo) 2. git commit -m "mensaje" 3. git push origin feat/articlesAside 4. Ir a GitHub y hacer Pull Request
 
 
 <!-- Samuel Gonzalez -->
