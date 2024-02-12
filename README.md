@@ -12,6 +12,7 @@ https://dev.to/ *Replicar este sitio y sus estilos.
 <!-- Hugo Gzz -->
     - Incorporar las fuentes del texto + los iconos + variables en sass para los colores
     - Nav o Header (components navbar.scss) logo barra search y 2 botones de login con hover (HTML dentro de header rama feat/nav)
+    - Sidebar Popular Thags menu con scroll 
     - Formar el layout de la pagina con los componentes que vayan terminando los colaboradores
 
 
