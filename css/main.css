@@ -20,8 +20,83 @@ body {
 /* .elemento {
   color: $color-primario; // Aquí estamos utilizando la variable $color-primario para establecer el color de texto
 } */
-.contenedor_discuss {
+.discuss_bar,
+.others {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+a {
+  text-decoration: none;
+  color: #171717;
+}
+a:hover {
+  color: #3b49df;
+}
+
+.primer_link_principal,
+.segundo_link_principal,
+.tercer_link_principal,
+.cuarto_link_principal,
+.quinto_link_principal {
+  font-size: 15px;
+  display: block;
+}
+
+.primer_link_secundario,
+.segundo_link_secundario,
+.tercer_link_secundario,
+.cuarto_link_secundario,
+.quinto_link_secundario {
+  font-size: 10px;
+  margin-top: 5px;
+  display: inline-block;
+}
+
+.barra_der {
+  width: 250px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.barra_der .discuss_bar {
   background-color: #ffffff;
-  width: 200px;
-  height: 200px;
+  position: relative;
+  width: 100%;
+  padding: 20px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin-bottom: 0;
+}
+.barra_der .discuss_bar .discuss_title {
+  margin-left: 15px;
+  font-weight: bold;
+  font-size: 18px;
+}
+.barra_der .discuss_bar .discussion {
+  margin-left: 15px;
+  font-size: 10px;
+}
+.barra_der .others {
+  background-color: #ffffff;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.barra_der .others .par {
+  background-color: #ffffff;
+  margin-bottom: 20px;
+  padding: 10px;
+  width: 90%;
+  max-width: 400px;
+  box-sizing: border-box;
+}
+.barra_der .others:last-child {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }/*# sourceMappingURL=main.css.map */
