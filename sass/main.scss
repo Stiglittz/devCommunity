@@ -3,9 +3,12 @@
 
 @import './base/resets';
 @import './globals/variables';
-<<<<<<< HEAD
 
 @import './components/sidebar';
-=======
+
 @import './components/navbar';
->>>>>>> ec827be41866276dd5467fe37d38d7ea1ac6def9
+
+@import './components/login';
+@import './components/tagsSidebar';
+
+
