@@ -1,6 +1,13 @@
 /* Aqui solo van los @import */
 /* Se debe poner bien la direccion del import o modulo ---> @import './base/fonts' */
 
-@import './base/_resets.scss';
-@import './globals/_variables.scss';
+@import './base/resets';
+@import './globals/variables';
+@import './layout/main';
+@import './components/sidebar';
+@import './components/navbar';
+@import './components/login';
+@import './components/tagsSidebar';
+@import './components/navbar';
+@import './components/resourcesAside';
 @import './components/articlesAside';

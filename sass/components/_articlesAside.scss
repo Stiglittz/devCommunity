@@ -9,24 +9,16 @@ a {
     text-decoration: none;
     color: $color-titulos;
     &:hover {
-        color: $color-secundario
+        color: $color-secundario;
     }
 }
 
-.primer_link_principal,
-.segundo_link_principal,
-.tercer_link_principal,
-.cuarto_link_principal,
-.quinto_link_principal {
+.links_principales {
     font-size: 15px;
     display: block;
 }
 
-.primer_link_secundario,
-.segundo_link_secundario,
-.tercer_link_secundario,
-.cuarto_link_secundario,
-.quinto_link_secundario {
+.links_secundarios {
     font-size: 10px;
     margin-top: 5px;
     display: inline-block;
@@ -38,51 +30,52 @@ a {
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
 
     .discuss_bar {
         background-color: $color-primario;
         position: relative;
         width: 100%;
-        padding: 20px; 
-        border-top-left-radius: 10px; 
-        border-top-right-radius: 10px; 
+        padding: 15px; 
+        border-top-left-radius: 7px; 
+        border-top-right-radius: 7px; 
         margin-bottom: 0; 
 
         .discuss_title {
-            margin-left: 15px; 
+            margin-top: 5px;
+            margin-left: 5px; 
             font-weight: bold; 
             font-size: 18px; 
         }
 
         .discussion {
-            margin-left: 15px;
+            margin-left: 5px;
             font-size: 10px; 
         }
     }
     
     .others {
         background-color: $color-primario;
+        border-bottom-left-radius: 7px; 
+        border-bottom-right-radius: 7px;
         width: 100%;
         height: auto;
         display: flex;
         flex-direction: column;
         align-items: center; 
-        padding: 20px; 
+        padding: 0px; 
         box-sizing: border-box; 
 
         .par {
             background-color: $color-primario;
-            margin-bottom: 20px; 
-            padding: 10px; 
-            width: 90%; 
-            max-width: 400px; 
+            border-bottom: 1px solid #e5e5e7;
+            width: 100%;
+            padding: 15px; 
+            margin-bottom: 5px;
             box-sizing: border-box; 
-        }
 
-        &:last-child {
-            border-bottom-left-radius: 10px; 
-            border-bottom-right-radius: 10px; 
+            &:last-child {
+                border-bottom: none; // Eliminar la línea divisoria del último elemento .par
+            }
         }
     }
 }
