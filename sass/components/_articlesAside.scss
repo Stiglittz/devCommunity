@@ -1,0 +1,81 @@
+@import '../globals/variables';
+
+.discuss_bar,
+.others {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+a {
+    text-decoration: none;
+    color: $color-titulos;
+    &:hover {
+        color: $color-secundario;
+    }
+}
+
+.links_principales {
+    font-size: 15px;
+    display: block;
+}
+
+.links_secundarios {
+    font-size: 10px;
+    margin-top: 5px;
+    display: inline-block;
+}
+
+.barra_der {
+    width: 250px; 
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+
+    .discuss_bar {
+        background-color: $color-primario;
+        position: relative;
+        width: 100%;
+        padding: 15px; 
+        border-top-left-radius: 7px; 
+        border-top-right-radius: 7px; 
+        margin-bottom: 0; 
+
+        .discuss_title {
+            margin-top: 5px;
+            margin-left: 5px; 
+            font-weight: bold; 
+            font-size: 18px; 
+        }
+
+        .discussion {
+            margin-left: 5px;
+            font-size: 10px; 
+        }
+    }
+    
+    .others {
+        background-color: $color-primario;
+        border-bottom-left-radius: 7px; 
+        border-bottom-right-radius: 7px;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        padding: 0px; 
+        box-sizing: border-box; 
+
+        .par {
+            background-color: $color-primario;
+            border-bottom: 1px solid #e5e5e7;
+            width: 100%;
+            padding: 15px; 
+            margin-bottom: 5px;
+            box-sizing: border-box; 
+
+            &:last-child {
+                border-bottom: none; // Eliminar la línea divisoria del último elemento .par
+            }
+        }
+    }
+}
