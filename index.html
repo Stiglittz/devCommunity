@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+   
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,100;1,300&display=swap" rel="stylesheet">
@@ -33,9 +36,53 @@
     </header>
 
     <main>
-        <aside> <!-- aside izquierdo -->
+        <aside class="asideLeft"> <!-- aside izquierdo -->
 
+            <!-- loginCard Samuel -->
+            <div class="textBox">
+                <h2 class="textH2">DEV Community is a community of 1,258,231 amazing developers</h2>
+                <p class="text">We're a place where coders share, stay up-to-date and grow their careers.</p>
+                <div>
+                    <a class="botones5 crear2" href="https://dev.to/enter?state=new-user">Create account</a>
+                </div>
+                <div>
+                    <a class="botones5 inicio" href="https://dev.to/enter?state=new-user">Log in</a>
+                </div>      
+            </div>
 
+            <!-- sideMenu y Redes Sociales Gerardo -->
+            <div class="cajaIzq">
+                <ul>
+                    <li><p>&#127968;</p>  Home</li>
+                    <li><p>&#128224;</p>  Reading List</li>
+                    <li><p>&#127908;</p>  Podcasts</li>
+                    <li><p>&#127909;</p>  Videos</li>
+                    <li><p>&#128221;</p>  Tags</li>
+                    <li><p>&#128161;</p>  FAQ</li>
+                    <li><p>&#128722;</p>  Forem Shop</li>
+                    <li><p>&#10084;&#65039;</p>  Advertise on DEV</li>
+                    <li><p>&#127875; </p> About</li>
+                    <li><p>&#129351;</p>  Contact</li>
+                    <li><p>&#128218;</p>  Guides</li>
+                    <li><p>&#129300;</p>  Software comparisons</li>
+                </ul>
+                <h3>Others</h3>
+                <ul>
+                    <li><p>&#128077;</p>  Code of Conduct</li>
+                    <li><p>&#129299;</p>   Privacy policy</li>
+                    <li><p>&#128064;</p>  Terms of Use</li>
+                </ul>
+                <div class="redesSociales">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-linkedin"></a>
+                    <a href="#" class="fa fa-youtube"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="#" class="fa fa-android"></a>   
+                </div>
+            </div>
+
+            <!-- side Popular Thags Hugo -->
             <div class="tagsMenu">
                 <h3>Popular Tags</h3>
                 <div class="listTags">
@@ -84,14 +131,183 @@
              </div>
         </aside>
 
-
-
-        <section> <!-- Posts centrales -->
+        <section><!-- Posts centrales --> 
+            <div class="contenedorcentral">
+                <div class="vinculossuperiores">
+                    <a href=""><span class="menurelevant">Relevant</span></a>
+                    <a href=""><span>Latest</span></a>
+                    <a href=""><span>Top</span></a>
+                </div>
+                <img class="imagenpost"  src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*nPcE2-N4L0PGc4HJZHMQaw.png" />
+                <div class="contenedorPost">
+                    <div class="circular--portrait">
+                        <img src="https://media.dev.to/cdn-cgi/image/width=320,height=320,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F1%2Ff451a206-11c8-4e3d-8936-143d0a7e65bb.png" />
+                        <div>
+                            <p><strong>Ben Halpern</strong></p>
+                            <p>Feb 11</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contenedorTitlePost">
+                    <h1>Data Validation: Scratching Surface of Code Responsibility</h1>
+                    <ul>
+                        <li><span class="verde">#</span>go</li>
+                        <li><span class="amarillo">#</span>tutorial</li>
+                        <li><span class="azulprimero">#</span>softwareengineering</li>
+                        <li><span class="azulprimero">#</span>cleancode</li>
+                    </ul>
+                    <div class="contenedorReacciones">
+                        <div>
+                            <a href="">3 reactions</a>
+                            <a href="">4 comments</a>
+                        </div>
+                        <div>
+                            <span>8 min read</span>
+                            <img src="" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
 
         </section>
 
-        <aside> <!-- aside derecho -->
-
+        <aside class="asideRight"> <!-- aside derecho -->
+            <!-- aside derecho Trending and guide Samuel -->
+            <section class="widget">
+                <header class="widger-header">
+                    <h4>trending guides/resources</h4>
+                </header>
+                <div class="widget-body">
+                    <a class="contenidoA" href="https://dev.to/codewithshahan/the-future-of-frontend-development-1amd">
+                        The future of frontend development
+                      </a>
+                    <a class="contenidoA" href="https://dev.to/grahamthedev/take-your-github-readme-to-the-next-level-responsive-and-light-and-dark-modes--3kpc">
+                        GitHub Readme: Responsive? 🤔 Animated? 🤯 Light and dark modes? 😱 You bet! 💪🏼
+                    </a>
+                    <a class="contenidoA" href="https://dev.to/bigsondev/10-programming-languages-worth-learning-in-2024-afa">
+                        10 Programming Languages Worth Learning in 2024
+                    </a>
+                    <a class="contenidoA" href="https://dev.to/jakemackie/web-development-in-2024-29d6">
+                        What is the ideal Tech stack to build a website in 2024? 👨‍💻
+                    </a>
+                    <a class="contenidoA" href="https://dev.to/navneet7716/optimizing-sql-queries-h9j">
+                        Optimizing SQL Queries by 23x!!!
+                    </a>
+                    <a class="contenidoA" href="https://dev.to/shricodev/top-5-underrated-open-source-projects-that-no-one-talks-about-2gki">
+                        ✨ Top 5 Underrated Open Source Projects that no one talks about 🫵🤐
+                    </a>
+                    <a class="contenidoA" href="https://dev.to/grayhat/modern-data-engineering-roadmap-2024-thread-with-resources-and-references-1ndn">
+                        Modern Data Engineering RoadMap - 2024
+                    </a>
+                    <a class="contenidoA" href="https://dev.to/kelvinskell/advanced-end-to-end-devops-project-deploying-a-microservices-app-to-aws-eks-using-terraform-helm-jenkins-and-argocd-part-i-3a53">
+                        Advanced End-to-End DevOps Project: Deploying A Microservices APP To AWS EKS using Terraform, Helm, Jenkins And ArgoCD (Part I)
+                    </a>
+                    <a class="contenidoA" href="https://dev.to/shinjithdev/git-good-best-practices-for-branch-naming-and-commit-messages-oj4">
+                        Git Good: Best Practices for Branch Naming and Commit Messages
+                    </a>
+                    <a class="contenidoA" href="https://dev.to/elaineleung/so-i-completed-replits-free-100-days-of-python-course-2ln">
+                        So I completed Replit's free 100 Days of Python course
+                    </a>
+                    <a class="contenidoA" href="https://dev.to/idanref/solid-the-5-golden-rules-to-level-up-your-coding-skills-2p82">
+                        S.O.L.I.D: The 5 Golden Rules to Level Up Your Coding Skills
+                    </a>
+                    <a class="contenidoA" href="https://dev.to/aws-heroes/uuid-in-postgresql-3n53">
+                        UUID in PostgreSQL
+                    </a>
+                    <a class="contenidoA" href="https://dev.to/ftisiot/1-billion-rows-challenge-in-postgresql-and-clickhouse-526k">
+                        1 billion rows challenge in PostgreSQL and ClickHouse
+                    </a>
+                    <a class="contenidoA" href="https://dev.to/matfrana/react-where-are-you-going-5284">
+                        React, where are you going?
+                    </a>
+                    <a class="contenidoA" href="https://dev.to/danielbergholz/from-nextjs-to-rails-then-elixir-my-journey-through-reactjs-burnout-h8d">
+                        From Next.js to Rails then Elixir: My journey through React.js burnout
+                    </a>
+                    <a class="contenidoA" href="https://dev.to/pwd9000/github-repository-best-practices-23ck">
+                        GitHub Repository Best Practices
+                    </a>
+                    <a class="contenidoA" href="https://dev.to/koladev/building-a-fullstack-application-with-django-django-rest-nextjs-3e26">
+                        Building a FullStack Application with Django, Django REST &amp; Next.js
+                    </a>
+                    <a class="contenidoA" href="https://dev.to/mateusriff/react-throws-a-curveball-5g7n">
+                        React Throws a Curveball
+                    </a>
+                    <a class="contenidoA" href="https://dev.to/karenpayneoregon/gentle-introduction-to-generic-repository-pattern-with-c-1jn0">
+                        Gentle introduction to Generic Repository Pattern with C#
+                    </a>
+                    <a class="contenidoA" href="https://dev.to/kelvinskell/advanced-terraform-getting-started-with-terragrunt-b9b">
+                        Advanced Terraform: Getting Started With Terragrunt
+                    </a>
+                </div>
+            </section>
+            <!-- aside derecho recently queried Samuel -->
+            <section class="widget">
+                <header class="widger-header">
+                    <h4>recently queried</h4>
+                </header>
+                <div class="widget-body">
+                    <a class="contenidoA" href="https://dev.to/vuelancer/free-online-code-playground-for-html-css-javascript-3kk4">
+                        JavaScript Playground
+                    </a>
+                    <a class="contenidoA" href="https://dev.to/jeremy/how-to-exit-vim-11dm">
+                        Exit Vim
+                    </a>
+                    <a class="contenidoA" href="https://dev.to/htnguy/top-10-discord-servers-for-developers-559o">
+                        Programming Discord
+                    </a>
+                    <a class="contenidoA" href="https://dev.to/wuz/getting-started-with-deno-e1m">
+                        Dino Tutorial
+                    </a>
+                    <a class="contenidoA" href="https://dev.to/bosepchuk/why-i-cant-recommend-clean-architecture-by-robert-c-martin-ofd">
+                        Clean Architecture
+                    </a>
+                    <a class="contenidoA" href="https://dev.to/restoreddev/why-i-switched-from-visual-studio-code-to-sublime-text-28k0">
+                        Sublime Text vs Vscode
+                    </a>
+                    <a class="contenidoA" href="https://dev.to/albertomontalesi/5-best-free-note-taking-apps-for-programmers-2n81">
+                        Coding Notes
+                    </a>
+                    <a class="contenidoA" href="https://dev.to/equiman/whats-the-better-way-to-use-pc-keyboard-on-macos-3k3">
+                        Windows Keyboard on Mac
+                    </a>
+                    <a class="contenidoA" href="https://dev.to/flexdinesh/tweet-in-bold-italics-and-strikethough-text-3b1b">
+                        Strikethrough Text Twitter
+                    </a>
+                    <a class="contenidoA" href="https://dev.to/gamegods3/how-to-install-gcc-in-windows-10-the-easier-way-422j">
+                        GCC for Windows
+                    </a>
+                    <a class="contenidoA" href="https://dev.to/gajesh/the-complete-django-allauth-guide-la3">
+                        Django Allauth
+                    </a>
+                    <a class="contenidoA" href="https://dev.to/softwaredotcom/50-vs-code-themes-for-2020-45cc">
+                        Best VSCode Themes
+                    </a>
+                    <a class="contenidoA" href="https://dev.to/davidepacilio/40-free-html-landing-page-templates-3gfp">
+                        Landing Page Template
+                    </a>
+                    <a class="contenidoA" href="https://dev.to/camerenisonfire/10-intriguing-public-rest-apis-for-your-next-project-2gbd">
+                        Free Apis
+                    </a>
+                    <a class="contenidoA" href="https://dev.to/lampewebdev/css-line-height-jjp">
+                        Line-height CSS
+                    </a>
+                    <a class="contenidoA" href="https://dev.to/bytebodger/spotify-s-random-fail-14d4">
+                        Spotify Shuffle Sucks
+                    </a>
+                    <a class="contenidoA" href="https://dev.to/vale/4-different-ways-to-reverse-a-string-with-javascript-34cl">
+                        JavaScript Reverse String
+                    </a>
+                    <a class="contenidoA" href="https://dev.to/vorillaz/headless-raspberry-pi-zero-w-setup-3llj">
+                        Raspberry Pi Zero W Headless Setup
+                    </a>
+                    <a class="contenidoA" href="https://dev.to/webdeasy/top-20-css-buttons-animations-f41">
+                        Button Animation CSS
+                    </a>
+                    <a class="contenidoA" href="https://dev.to/lofiandcode/git-and-github-how-to-revert-a-single-file-dha">
+                        Git Revert File
+                    </a>
+                </div>
+            </section>
         </aside>
     </main>
 </body>
