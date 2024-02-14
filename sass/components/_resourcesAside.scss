@@ -1,4 +1,45 @@
 .widget {
     align-content: end;
     flex-wrap: wrap;
+    margin: 8px 0 16px 0;
+    padding: 0 16px 16px 16px;
+    height: auto;
+    text-align: left;
+    display: block;
+    margin-block-start: 1.33em;
+}
+.widger-header {
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.widget-body {
+    box-sizing: border-box;
+    
+}
+
+.contenidoA {
+    font-size: 1rem;
+    margin-block-start: 4px;
+    gap: 0.5rem;
+    color: rgb(64, 64, 64);
+    padding: 1rem 1rem 1rem 1rem;
+    display: block;
+    text-decoration: none;
+
+}
+
+.contenidoA:hover {
+    background-color: $color-primario;
+    color: rgb(59, 73, 233);
+    text-decoration: none;
+}
+
+.widget:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background-color: rgb(82, 82, 82);
+    opacity: 0.25;
 }
