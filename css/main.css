@@ -34,7 +34,7 @@ body {
   padding-left: 10%;
   background-color: #f5f5f5;
   box-sizing: border-box;
-  border-radius: 50px;
+  border-radius: 10px;
 }
 
 .cajaIzq > ul > li:hover {
@@ -72,9 +72,9 @@ body {
 }
 
 .fa {
-  padding: 15px;
+  padding: 10px;
   font-size: 30px;
-  width: 7%;
+  width: 12%;
   text-align: center;
   text-decoration: none;
   margin: 9px 3px;
@@ -301,4 +301,17 @@ nav {
 
 .listTags li {
   padding: 10px;
+}
+
+.cajaMedio {
+  float: right;
+  width: 100%;
+  padding-right: 260px;
+  margin-left: -240px;
+  box-sizing: border-box;
+}
+
+.cajaMedio > div {
+  padding: 20px;
+  background-color: black;
 }/*# sourceMappingURL=main.css.map */
