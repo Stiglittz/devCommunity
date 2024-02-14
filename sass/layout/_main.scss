@@ -1,0 +1,22 @@
+main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.asideLeft {
+    width: 20%;
+    border: 1px solid green;
+}
+
+.postSection {
+    width: 50%;
+    margin-right: 15px;
+    margin-left: 10px;
+    border: 1px solid red;
+}
+
+.asideRight {
+    width: 25%;
+    border: 1px solid black;
+}

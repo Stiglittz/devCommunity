@@ -3,13 +3,11 @@
 
 @import './base/resets';
 @import './globals/variables';
-
+@import './layout/main';
 @import './components/sidebar';
-
 @import './components/navbar';
-
 @import './components/login';
 @import './components/tagsSidebar';
+@import './components/resourcesAside';
 @import './components/postDew';
-
 
