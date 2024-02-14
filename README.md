@@ -12,6 +12,7 @@ https://dev.to/ *Replicar este sitio y sus estilos.
 <!-- Hugo Gzz -->
     - Incorporar las fuentes del texto + los iconos + variables en sass para los colores
     - Nav o Header (components navbar.scss) logo barra search y 2 botones de login con hover (HTML dentro de header rama feat/nav)
+    - Sidebar Popular Thags menu con scroll
     - Formar el layout de la pagina con los componentes que vayan terminando los colaboradores
 
 
@@ -31,4 +32,4 @@ https://dev.to/ *Replicar este sitio y sus estilos.
 
 <!-- Gerardo Diaz -->
     - Desde la rama develop debe crear su rama feat/sideMenu y comenzar trabajar en esa.
-    - Menu o sidebar lado izquierdo una lista principal y una segunda lista con un pequeño titulo de "Other" y ambas llevaran sus iconos, hacerlo por mientras con un solo icono o logo png como ejemplo ya despues que yo ya tengo listo los iconos listos te los paso para que los agregues, las listas llevan enlances y hover.(HTML dentro de aside izquierdo)
+    - Menu o sidebar lado izquierdo una lista principal y una segunda lista con un pequeño titulo de "Other" y ambas llevaran sus iconos, hacerlo por mientras con un solo icono o logo png como ejemplo ya despues que yo tenga listo los iconos te los paso para que los agregues, las listas llevan enlances y hover.(HTML dentro de aside izquierdo)
