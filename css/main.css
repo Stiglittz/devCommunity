@@ -486,6 +486,19 @@ nav {
   text-decoration: underline;
 }
 
+.containerAsideEnd {
+  width: 250px;
+  height: 250px;
+  color: #525252;
+  margin: 10px;
+  font-family: "Roboto", sans-serif;
+  font-size: small;
+}
+
+.containerAsideEnd a {
+  color: #3b49df;
+}
+
 .widget {
   margin: 8px 0 16px 0;
   padding: 0 16px 16px 16px;
