@@ -1,0 +1,59 @@
+.contenedorcentral{
+    width: 40%;
+    border: 1px solid black;
+}
+
+.vinculossuperiores{
+    display: flex;
+    border: 1px solid green;
+}
+.vinculossuperiores a{
+    margin-right: 15px;
+    color: $color-grisligero;
+    text-decoration: none;
+}
+
+.menurelevant{
+    color: black;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.imagenpost{
+    width: 70%;
+}
+.circular--portrait{
+    width: 25%;
+    display: flex;
+}
+.circular--portrait img{
+    margin-right: 10px;
+    width: 25%;
+    border-radius: 50%;
+}
+.contenedorTitlePost ul{
+    display: flex;
+}
+.contenedorTitlePost li{
+    margin-right: 25px;
+
+}
+.contenedorTitlePost .verde{
+    color: green;
+}
+.contenedorTitlePost .amarillo{
+    color: yellow;
+}
+.contenedorTitlePost .azulprimero{
+    color: blue;
+}
+.contenedorReacciones a{
+    text-decoration: none;
+    color: black;
+}
+.contenedorReacciones{
+    display: flex;
+    justify-content: space-between;
+}
+.contenedorReacciones span{
+    font-size: 10px;
+}
