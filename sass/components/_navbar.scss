@@ -67,6 +67,21 @@ nav {
 
 .loginButtons {
     padding-top: 3px;
+    display: flex;
+}
+
+.iconSearch {
+    background-color: transparent;
+    border: none;
+    border-radius: 4px;
+    padding: 8px;
+    cursor: pointer;
+    margin-right: 6px;
+}
+
+.iconSearch:hover {
+    background-color: #ebecfc;
+    
 }
 
 .login {

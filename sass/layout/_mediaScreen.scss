@@ -1,0 +1,36 @@
+@media (min-width: 768px) {
+    .iconSearch{
+        display: none;
+    }
+}
+
+@media (max-width: 1023px) {
+
+    .asideRight {
+        display: none;
+    }
+
+    .asideLeft {
+        width: 30%;
+    }
+    
+    .postSection {
+        width: 70%;
+    }
+  }
+
+@media (max-width: 767px) {
+
+    .search-bar, .login, .asideLeft, .asideRight {
+        display: none;
+    }
+
+    nav {
+        justify-content: space-between;
+    }
+
+    .postSection {
+        width: 100%;
+        margin: 0;
+    }
+  }

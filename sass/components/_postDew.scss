@@ -8,13 +8,11 @@
     }
 }
 
-*{
-    box-sizing: border-box;
-}
+
 #cajaMedio{
     margin: 0;
     position: relative;
-    background-color: #e6ffff;
+    background-color: $color-primario;
     
     border-radius: 10px;
 }
@@ -33,7 +31,6 @@
 
 #contenedorSUP{
     
-    width: 500px;
     padding-left: 25px;
     padding-right: 25px;
     box-sizing: content-box;
@@ -49,8 +46,8 @@
 
 #contenedorINF{
    
-    width: 50%;
-    height: 50%;
+
+    
     padding-top: 15px;
     text-align: left;
     padding-left: 4%;

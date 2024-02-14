@@ -14,7 +14,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,100;1,300&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
+    <header> <!-- navbar hugo -->
         <nav>
             <div class="devSearch">
                 <a href="/">
@@ -30,6 +30,11 @@
                 </div>
             </div>
             <div class="loginButtons">
+                <button class="iconSearch" type="submit">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" focusable="false">
+                      <path d="M18.031 16.617l4.283 4.282-1.415 1.415-4.282-4.283A8.96 8.96 0 0111 20c-4.968 0-9-4.032-9-9s4.032-9 9-9 9 4.032 9 9a8.96 8.96 0 01-1.969 5.617zm-2.006-.742A6.977 6.977 0 0018 11c0-3.868-3.133-7-7-7-3.868 0-7 3.132-7 7 0 3.867 3.132 7 7 7a6.977 6.977 0 004.875-1.975l.15-.15z"/>
+                    </svg>
+                </button>
                 <button class="buttons login">Log in</button>
                 <button class="buttons create">Create account</button>
             </div>
@@ -136,30 +141,14 @@
         </aside>
  
         <section class="postSection"> <!-- Posts centrales -->
-            <!-- Post Principal con Imagen grande Gerardo -->
-            <div id="cajaMedio">
-               <div id="divCajaP">
-                <div id="tituloP">Dev Community</div>
-                </div>
-                <div id="contenedorSUP">
-                    <img src="https://res.cloudinary.com/practicaldev/image/fetch/s---UXjdvws--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_775/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/wixrm7ejmrua4su7agha.jpg" alt="">
-                </div>
-                <div id="contenedorINF">
-                    <h1>Need to stay up-to-date with the most relevant trends in software, such as generate AI, cloud computing, and all things frontend?</h1></br>
-                    <p>Look no further.</p></br>
-                    <p>You can do so much more once you create your account. Follow the devs and topics you care about, and keep up-to-date.</p></br>
-                    <a href="#"><h1>Start Now</h1></a></br>
-                    <p>Happy coding ❤️</p>
-                </div>
-            </div>
 
             <!-- Post Principal con Imagen de GO grande David -->
+            <div class="vinculossuperiores">
+                <a href=""><span class="menurelevant">Relevant</span></a>
+                <a href=""><span>Latest</span></a>
+                <a href=""><span>Top</span></a>
+            </div>
             <div class="contenedorcentral">
-                <div class="vinculossuperiores">
-                    <a href=""><span class="menurelevant">Relevant</span></a>
-                    <a href=""><span>Latest</span></a>
-                    <a href=""><span>Top</span></a>
-                </div>
                 <img class="imagenpost"  src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*nPcE2-N4L0PGc4HJZHMQaw.png" />
                 <div class="contenedorPost">
                     <div class="circular--portrait">
@@ -190,8 +179,24 @@
                 </div>
                 </div>
             </div>
-        </section>
 
+            <!-- Post Principal con Imagen grande Gerardo -->
+            <div id="cajaMedio">
+               <div id="divCajaP">
+                <div id="tituloP">Dev Community</div>
+                </div>
+                <div id="contenedorSUP">
+                    <img src="https://res.cloudinary.com/practicaldev/image/fetch/s---UXjdvws--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_775/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/wixrm7ejmrua4su7agha.jpg" alt="">
+                </div>
+                <div id="contenedorINF">
+                    <h1>Need to stay up-to-date with the most relevant trends in software, such as generate AI, cloud computing, and all things frontend?</h1></br>
+                    <p>Look no further.</p></br>
+                    <p>You can do so much more once you create your account. Follow the devs and topics you care about, and keep up-to-date.</p></br>
+                    <a href="#"><h1>Start Now</h1></a></br>
+                    <p>Happy coding ❤️</p>
+                </div>
+            </div>
+        </section>
 
         <aside class="asideRight"> <!-- aside derecho -->
             <!-- aside Discuss Cesar -->

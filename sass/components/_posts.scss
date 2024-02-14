@@ -1,14 +1,18 @@
 .contenedorcentral{
-    width: 40%;
-    border: 1px solid black;
+    background-color: $color-primario;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    padding: 10px;
 }
 
 .vinculossuperiores{
     display: flex;
-    border: 1px solid green;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-left: 15px;
 }
 .vinculossuperiores a{
-    margin-right: 15px;
+    margin-right: 20px;
     color: $color-grisligero;
     text-decoration: none;
 }
@@ -35,6 +39,7 @@
 }
 .contenedorTitlePost li{
     margin-right: 25px;
+    list-style: none;
 
 }
 .contenedorTitlePost .verde{
